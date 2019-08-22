@@ -49,8 +49,7 @@ Your `.md` file
 #### How to Submit
 1) Fork the repository  
 2) Clone the repository to your computer  
-3) Modify the files  
-4) Commit changes  
-5) Push the changes up to GitHub
-6) Add your instructor as a collaborator
-7) Create a pull request on the original repository to turn in the assignment. Make sure to include your name in the pull request.  
+3) Make a new branch  
+4) Modify the files  
+5) Commit changes  
+6) Create a pull request on the original repository to turn in the assignment.  
