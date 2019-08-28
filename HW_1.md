@@ -15,5 +15,5 @@ cp -r ../* ../../site_B #copy the contents of site_A into site_B
 ```
 ```
 cd ../../..
-rm -r sites
+rm -r -i sites #removes the files from the tail asking every step up if you want to delete a file
 ```
