@@ -14,6 +14,6 @@ cd ../Metadata && touch Plot_1_meta.txt Plot_2_meta.txt Plot_3_meta.txt #change 
 cp -r ../* ../../site_B #copy the contents of site_A into site_B
 ```
 ```
-cd ../../.. #moves the working directory to the first working directory the file _sites_ was created in
+cd ../../.. #moves the working directory to the first working directory the file sites was created in
 rm -r -i sites #removes the files from the tail asking every step up if you want to delete a file
 ```
