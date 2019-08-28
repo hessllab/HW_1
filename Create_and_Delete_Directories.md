@@ -8,5 +8,5 @@ cp -r ./Sites/Site_A/ ./Sites/Site_B # Copy Site A structure with files to Site 
 
 Code for deleting directories and files
 ```bash 
-rm -r ./Sites # Remove all directories and files
+rm -r -i ./Sites # Remove all directories and files
 ```
