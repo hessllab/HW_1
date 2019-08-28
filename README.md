@@ -12,7 +12,7 @@ _Objective:_ Create a series of Bash/Unix commands that successfully:
 
 
 Adhere to the following principles:
-1)	Make the paths __absolute__ so that I can reproduce the structure on my machine simply by running your code.  
+1)	Make the paths __relative__ so that I can reproduce the structure on my machine simply by running your code. Ideally, the directories would be set up below my current working directory. 
 2)	Code should be saved as two blocks of bash commands in an `.md` file  
   * the first block should make the directories  
   * the second block should delete the directories  
