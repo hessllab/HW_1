@@ -2,13 +2,13 @@
 Here is the code to set up the new working directory.
 ```
 mkdir -p Sites/Site_A/Data Sites/Site_A/Metadata Sites/Site_A/GIS
-# First line made a directory including a folder with Site A and 3 other folders
+# First line made a directory including a folder with Site A and 3 other folders inside Site A called Data,Metadata and GIS
 
-#For next line of code make sure you are working in Site_A directory
 touch Sites/Site_A/Data/Plot_1.txt Sites/Site_A/Data/Plot_2.txt Sites/Site_A/Data/Plot_3.txt Sites/Site_A/Metadata/Plot_1_meta.txt Sites/Site_A/Metadata/Plot_2_meta.txt Sites/Site_A/Metadata/Plot_3_meta.txt
-#This inserted respective text files into their proper folders in Site_A
+#This inserted respective text files into their proper folders in Site_A. Text files went into the Data folder and Metadata folder. Three
+files into each folder.
 
-#Next line of code change directory into Sites
+
 cp -r Sites/Site_A Sites/Site_B
 #This copied everything from Site_A directory into a new directory name Site_B
 
@@ -22,9 +22,8 @@ rm Sites/Site_C/Metadata/*.txt*
 #This removed all text files from Site_C in folders Data and Metadata by using the wildcard to identify all text files
 ```
 
-Here is the code to delete the directory created.
+Here is the code to delete the entire directory created.
 ```
-#To delete the entire directory, move to directory in which Sites is located
 rm -r Sites
-#This will remove the directory just created
+#This will remove/delete the directory just created
 ```
