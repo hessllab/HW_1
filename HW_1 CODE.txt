@@ -1,3 +1,0 @@
-# HW_1 Geog693
-
-## Code for creating a new directory.
